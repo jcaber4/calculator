@@ -5,7 +5,7 @@ from calc import Calc
 
 if __name__ == "__main__":
     window = Tk()
-    window.configure(background='lightblue')
+    window.configure(background="lightblue")
     window.title("Calculator")
     window.geometry("350x150")
 
