@@ -6,8 +6,9 @@ from calc import Calc
 if __name__ == "__main__":
     window = Tk()
     window.configure(background="lightblue")
+    window.resizable(False, False)
     window.title("Calculator")
-    window.geometry("350x150")
+    window.geometry("305x125")
 
     screenvar = StringVar()
     screen_field = Screen(window, textvariable=screenvar)
