@@ -4,7 +4,7 @@ This is a basic calculator that I made in a little less than a day. I've been st
 
 ![Screenshot](./calc_screenshot.PNG)
 
-Running the run_calc file runs the program.
+Running the run_calc.py file runs the program.
 
 Would love any feedback that you have.
 
