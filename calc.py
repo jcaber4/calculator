@@ -13,7 +13,7 @@ class Calc(Frame):
         super().__init__(master)
         self.master = master
         self.buttons = []
-        screen.grid(columnspan=6, ipadx=90, row=0)
+        screen.grid(columnspan=6, ipadx=68, ipady=10, row=0)
         self.display = screen
         self.load_buttons()
         for row_pos in range(1, 4):
